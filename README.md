@@ -7,7 +7,8 @@ A simple web app using vue.js and vuetify to provide museum visitors audio files
 ## Project setup
 
 ```
-npm install```
+npm install
+```
 
 ### Compiles and hot-reloads for development
 
