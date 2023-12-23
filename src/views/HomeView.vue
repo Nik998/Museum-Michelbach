@@ -36,7 +36,7 @@ export default {
   data() {
     return {
       rooms: [
-        new Room("Raum 1", "Raum 1", "Das ist eine Kurzbeschreibung", "Das ist eine ausführliche Beschreibung"),
+        new Room("Raum 1", "Raum 1", "Das ist eine Kurzbeschreibung", "Das ist eine ausführliche Beschreibung", "https://www.frankonzept.de/wp-content/uploads/2021/03/W5D3106.jpg"),
       ]
     }
   }

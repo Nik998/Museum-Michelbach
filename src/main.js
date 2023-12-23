@@ -16,11 +16,12 @@ import { createApp } from 'vue'
 const app = createApp(App)
 
 export class Room {
-  constructor(id, title, subtitle, text) {
+  constructor(id, title, subtitle, text, image) {
     this.id = id;
     this.title = title;
     this.subtitle = subtitle;
     this.text = text;
+    this.image = image;
   }
 }
 
