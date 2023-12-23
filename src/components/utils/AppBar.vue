@@ -1,7 +1,12 @@
 <template>
   <v-app style="height: 40px;">
     <v-app-bar class="bg-secondary"
-               height="40"/>
+               height="40">
+      <v-btn v-if="showBackButton"
+             text="<  Zurück"
+             link to="/"/>
+    </v-app-bar>
+
     <v-app-bar
       :fixed=false
       dense
@@ -46,6 +51,11 @@ export default {
     return {
       logoUrl: 'https://www.alzenau.de/layout/alzenau/media/logo_stadt-alzenau.png?__ts=1406812913', // Your logo URL
       pictureUrl: 'https://www.alzenau.de/media/custom/2413_1274_1_r.JPG?1411725283', // Your picture URL
+    }
+  },
+  computed: {
+    showBackButton() {
+      return this.$route.path !== "/";
     }
   }
 }
