@@ -21,6 +21,15 @@ export default createVuetify({
           fontFamily: 'Nunito', // Set Nunito as the default font
         },
       },
+      dark: {
+        colors: {
+          primary: '#829520',
+          secondary: '#273340',
+        },
+        variables: {
+          fontFamily: 'Nunito', // Set Nunito as the default font
+        },
+      },
     },
   },
 })
