@@ -17,12 +17,17 @@ const messages = {
     entrance: 'Entrance',
     roomPrev: '<',
     roomNext: '>',
+    close: 'Close',
+    audio10Title: 'Early borders - On the Edge',
+    audio11Title: '',
   },
   de: {
     welcome: 'Herzlich Willkommen im Museum der Stadt Alzenau.<br>Dies ist ein interaktiver Audio Guide, der Sie durch die Ausstellung führt.<br>Bitte treten Sie ein.',
     entrance: 'Eingang',
     roomPrev: '<',
     roomNext: '>',
+    close: 'Schließen',
+    audio10Title: 'Frühe Grenzverläufe - Am Abgrund',
   }
 }
 
